@@ -1,0 +1,21 @@
+.shareButton {
+  display: flex;
+  align-items: normal;
+}
+.shareButton * {
+  color: var(--greyC4);
+}
+
+.shareNumber {
+  padding: 0 0 0 6px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media all and (min-width: 1024px) {
+  .shareButton {
+    display: none;
+  }
+}
+
+  
